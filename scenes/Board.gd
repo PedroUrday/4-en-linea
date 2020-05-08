@@ -5,7 +5,7 @@ const ROWS = 6
 const CELL_SIZE = 64
 const BOARD_WIDTH = COLUMNS * CELL_SIZE
 const BOARD_HEIGHT = ROWS * CELL_SIZE
-const PIECE_SPEED = 1500
+export (int) var PIECE_SPEED
 var RedPiece = preload("res://scenes/RedPiece.tscn")
 var YellowPiece = preload("res://scenes/YellowPiece.tscn")
 var board = []

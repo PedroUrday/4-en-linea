@@ -5,6 +5,7 @@
 
 [node name="Board" type="Node2D"]
 script = ExtResource( 2 )
+PIECE_SPEED = 1500
 
 [node name="board" type="Sprite" parent="."]
 position = Vector2( -8, -8 )

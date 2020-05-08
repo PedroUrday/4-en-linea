@@ -1,0 +1,15 @@
+[gd_scene load_steps=3 format=2]
+
+[ext_resource path="res://assets/sprites/board.png" type="Texture" id=1]
+[ext_resource path="res://scenes/Board.gd" type="Script" id=2]
+
+[node name="Board" type="Node2D"]
+script = ExtResource( 2 )
+
+[node name="board" type="Sprite" parent="."]
+position = Vector2( -8, -8 )
+texture = ExtResource( 1 )
+centered = false
+__meta__ = {
+"_edit_lock_": true
+}

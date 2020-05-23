@@ -1,11 +1,15 @@
 # 4-en-linea
-El juego de 4 en linea para jugar en LAN desarrollado en Godot Engine y programado con GDScript.
-Hola a todos!
 
-Les comparto el código fuente del juego de "4 en linea" que acabo de desarrollar. Obviamente, lo hice en Godot Engine. El lenguaje de programación es GDScript. El juego se juega en LAN utilizando direcciones IP. Pero teóricamente se puede jugar por Hamachi o algún programa parecido, pues no lo he probado. Lo subí a GitHub, el link es: https://github.com/PedroUrday/4-en-linea
+Juego de "4 en linea" (tambien llamado "Conecta 4") para jugar en red local (LAN).
 
-El juego es muy simplón, pero es uno de los primeros que hice. Todos los assets del juego los hice yo.
+El juego está formado por un tablero de seis filas y siete columnas; y fichas de 2 colores, rojo y amarillo, un color por cada jugador.
 
-Luego haré un tutorial de como lo hice. Por ahora les dejo el código fuente para que lo chusmeen.
+Es un juego por turnos, en el cual los jugadores deben introducir una ficha en la columna que quieran y esta caerá a la posición más baja.
 
-Saludos!
+El ganador del juego es quien consiga alinear cuatro fichas de manera horizontal, vertical o diagonal. En esta versión del juego, el jugador rival siempre tendrá fichas de color rojo.
+
+Para poder jugar a una partida que ha creado otra persona, se debe especificar una dirección ip válida, por lo que solo puede ser jugado en una red local (LAN), o utilizando una red privada virtual (VPN).
+
+El juego esta desarrollado en Godot Engine y programado con GDScript.
+
+El código fuente original del juego se encuentra en: https://github.com/PedroUrday/4-en-linea
